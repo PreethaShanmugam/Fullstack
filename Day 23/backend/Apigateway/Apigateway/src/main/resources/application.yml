@@ -1,0 +1,35 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        
+        - id: order-service-route
+          uri: lb://profile-server
+          predicates:
+            - Path=/staff/**
+            
+        - id: order-service-route
+          uri: lb://student-server
+          predicates:
+            - Path=/student/**
+            
+                 
+        - id: order-service-route
+          uri: lb://admin-server
+          predicates:
+            - Path=/admin/**
+            
+        - id: order-service-route
+          uri: lb://course-server
+          predicates:
+            - Path=/course/**
+        - id: order-service-route
+          uri: lb://assignment-server
+          predicates:
+            - Path=/assignment/**    
+        - id: order-service-route
+          uri: lb://user-server
+          predicates:
+            - Path=/auth/**    
+                 
+            

@@ -1,0 +1,58 @@
+/* AssignmentDetail.css */
+.assignment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .assignment-box {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f8f8f8;
+    height:200Px;
+    width:700px;
+  }
+  
+  
+  .assignment-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .assignment-id{
+    font-weight: bold;
+    font-size: 14px;
+    position:absolute;
+    left:27%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  .assignment-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .upload-assignment-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    width:70px;
+    height:30px;
+    margin-left: 85%;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-assignment-button:hover {
+    background-color: #0056b3;
+  }
+  

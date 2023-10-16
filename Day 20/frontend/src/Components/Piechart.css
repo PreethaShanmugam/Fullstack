@@ -1,0 +1,19 @@
+/* Apply styles to the student grades pie chart container */
+.student-grades-pie-chart {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    position:absolute;
+    top:85%;
+    left: 25%;
+  }
+  
+  /* Apply styles to the chart title */
+  .chart-title {
+    font-size: 15px;
+    position:absolute;
+    top:3%;
+    left:19%;
+    color: #333;
+  }
+  

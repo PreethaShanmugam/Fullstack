@@ -1,0 +1,18 @@
+/* DepartmentPassPercentage.css */
+.department-pass-percentage {
+    text-align: center;
+    padding: 20px;
+    position:absolute;
+    top:15%;
+    margin-left: 35%;
+  }
+  
+  .charttitle {
+    font-size: 15px;
+    position:absolute;
+    top:-2%;
+    left:38%;
+    color: #333;
+  }
+  
+  

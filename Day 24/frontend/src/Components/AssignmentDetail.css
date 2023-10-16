@@ -1,0 +1,147 @@
+/* AssignmentDetail.css */
+.regggg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6) fixed;
+}
+
+.containerrr {
+  max-width: 400px; /* Adjust the container width as needed */
+  width: 100%;
+  height: 500px;
+  position:absolute;
+  left:40%;
+  top:25%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.titleee {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.titleee::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.contenttt .category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.category .assignment-boxx {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-boxxx span.detailsss {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input-boxxx input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.input-boxxx input:focus,
+.input-boxxx input:valid {
+  border-color: #9b59b6;
+}
+.input-bo span.detailsss {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input-bo input {
+  height: 145px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.input-bo input:focus,
+.input-bo input:valid {
+  border-color: #9b59b6;
+}
+
+.butt {
+  height: 45px;
+  margin: 35px 0;
+  margin-top: 10%;
+  width: 60px;
+}
+
+.butt input {
+  height: 100%;
+  width: 150%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.buttonnn input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media (max-width: 584px) {
+  .containerrr {
+    max-width: 100%;
+  }
+
+  .contenttt .category {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .contenttt .category {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .category::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media (max-width: 459px) {
+  .contenttt .category {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,84 @@
+/* AddCourse.css */
+.addbody{
+  background: linear-gradient(135deg, #71b7e6, #9b59b6) fixed;  height: 100vh;
+  /* background-image: url("https://quotefancy.com/media/wallpaper/3840x2160/36863-Malcolm-S-Forbes-Quote-The-purpose-of-education-is-to-replace-an.jpg") ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  
+}
+.add-course-container {
+    width: 300px;
+    position:absolute;
+    top:20%;
+    left:40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .add-course-title {
+    text-align: center;
+  }
+  
+  .add-course-form {
+    margin-top: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 50%;
+    padding: 10px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .submitu {
+    height: 45px;
+    margin: 35px 0;
+    margin-top: 10%;
+    width: 60px;
+  }
+  
+  .submitu input {
+    height: 100%;
+    width: 150%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  

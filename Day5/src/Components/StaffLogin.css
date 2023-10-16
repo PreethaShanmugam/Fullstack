@@ -1,0 +1,109 @@
+.Staffmain {
+    background-color:#F3EBF6;
+    width: 380px;
+    height: 400px;
+    margin: 12em auto;
+    border-radius: 1.5em;
+    position:absolute;
+    left:38%;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.Staffimg{
+    background-image:url("https://readwrite.com/wp-content/uploads/2020/12/The-Rise-of-Ed-Tech-During-COVID-and-its-Limitations.jpg");
+    /* background-image: url(""); */
+    background-size:cover;
+    /* font-family: 'Ubuntu', sans-serif; */
+   height:120vh;
+     
+}
+
+.Stafftitle {
+     color:blue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    position:absolute;
+    top:9%;
+    right:37%;
+}
+
+.Staffemail {
+width: 70%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;  
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+position:absolute;
+top:35%;
+right:16%;
+font-family: 'Ubuntu', sans-serif;
+}
+
+/* .form1 {
+    padding-top: 40px;
+} */
+
+.Staffpassword {
+        width: 70%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+position:absolute;
+top:55%;
+right:16%;
+margin-bottom: 1px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* .un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+} */
+
+.Staffsubmit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background:blue;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    right:35%;
+    position:absolute;
+    top:79%;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.linkregister{
+    position:absolute;
+    right:34%;
+    top:87%;
+    color:blue;
+
+}

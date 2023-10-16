@@ -1,0 +1,27 @@
+.assignment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .assignment-title {
+    text-align: center;
+    position:absolute;
+    top:9%;
+    left:40%;
+  }
+  
+  .assignment-list {
+    list-style: none;
+    position:absolute;
+    top:15%;
+    left:40%;
+  }
+  
+  .assignment-item {
+    margin-bottom: 20px; /* Adjust the spacing between assignments */
+    text-align: left;
+  }
+  

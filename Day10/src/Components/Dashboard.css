@@ -1,0 +1,56 @@
+/* Dashboard.css */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+  gap: 20px;
+  padding: 20px; /* Optional padding around the container */
+}
+
+.box {
+  flex-basis: calc(25% - 20px); /* Distribute equally among three boxes with a 20px gap between them */
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  flex-basis: calc(25% - 20px); /* Distribute equally among three boxes with a 20px gap between them */
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.box img,
+.box2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.box p,
+.box2 p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Center items on smaller screens */
+  }
+
+  .box,
+  .box2 {
+    flex-basis: calc(10% - 10px); /* Distribute equally among two boxes with a 20px gap between them on smaller screens */
+  }
+}

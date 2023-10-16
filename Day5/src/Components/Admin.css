@@ -1,0 +1,96 @@
+
+.Adminback{
+    background-image:url("https://readwrite.com/wp-content/uploads/2020/12/The-Rise-of-Ed-Tech-During-COVID-and-its-Limitations.jpg");
+     background-size:cover;
+    background-attachment: fixed;
+    height:85vh;
+
+     
+}
+.logout
+{
+  position:absolute;
+  left:45%;
+  font-size:xx-large;
+}
+* .buttonn{
+  position:absolute;
+  left:45%;
+  top:130%;
+  color:white;
+  background-color: blue;
+} 
+.dashboard-container {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height:90%;
+    position: fixed;
+    top: 11.85%;
+  }
+  
+  header {
+    background-color:blue;
+    padding: 20px;
+    /* text-align: center; */
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* .widget {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  } */
+  
+  .widget-title1 a{
+    color: white;
+    position:absolute;
+    left:2%;
+    top:15%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .widget-title2 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:25%;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+  }
+  .widget-title3 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:34%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .widget-title4 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:43%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .widget-title5 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:52%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
